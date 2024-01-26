@@ -941,7 +941,7 @@ p {
   /*background: var(--primary);*/
   height: 650px;
   background-image: url("assets/images/portada7.jpg");
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, .75);
 	background-blend-mode: darken;
 	background-size: cover;
 	/*background-position: bottom 350px right 10px;	*/
