@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="bootstrap-5.3.2/css/bootstrap.min.css" />
+  <script src="bootstrap-5.3.2/js/bootstrap.min.js"></script>
+  
+<style>
+    /* Tabs*/
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #0c4dc8;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #0c4dc8;;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/funciones.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Tabs -->
+<section id="tabs">
+	<div class="container">
+		<h6 class="section-title h1">Temario de Modulos</h6>
+		<div class="row">
+			<div class="col-xs-12 ">
+				<nav>
+					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link" id="frontend-tab" data-toggle="tab" href="#frontend" role="tab" aria-controls="frontend" aria-selected="true">1. Front-end</a>
+						<a class="nav-item nav-link" id="backend-tab" data-toggle="tab" href="#backend" role="tab" aria-controls="backend" aria-selected="false">2. Back-end</a>
+						<a class="nav-item nav-link" id="bootstrap-tab" data-toggle="tab" href="#bootstrap" role="tab" aria-controls="bootstrap" aria-selected="false">3. Bootstrap</a>
+					</div>
+				</nav>
+				
+			
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ./Tabs -->
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+          <div class="accordion" id="frontend">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <b>1 Figma: diseñando propuestas de diseño</b>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    
+                    <li class="list-group-item">1.1 introduccion con figma</li>
+                    <li class="list-group-item">1.2 Creando portafolios con figma</li>
+                    <li class="list-group-item">1.3 Creando encabezados con figma</li>
+                    <li class="list-group-item">1.4 Creando secciones de trabajos con figma</li>
+                    <li class="list-group-item">1.5 Creando secciones de contacto con figma</li>
+                    <li class="list-group-item">1.6 Creando pie de pagina con figma</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <b>2. HTML 5</b>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item">2.1 Instalacion y configuracion de entorno de desarrollo</li>
+                    <li class="list-group-item">2.2 Estructura de proyecto</li>
+                    <li class="list-group-item">2.3 Encabezadoss</li>
+                    <li class="list-group-item">2.4 Etiquetas de formatos de texto</li>
+                    <li class="list-group-item">2.5 Vinculos o enlaces</li>
+                    <li class="list-group-item">2.6 listas</li>
+                    <li class="list-group-item">2.7 Imagenes y dimesiones</li>
+                    <li class="list-group-item">2.8 Tablas</li>
+                    <li class="list-group-item">2.9 Formularios</li>
+                    <li class="list-group-item">2.10 Tipos de input</li>
+                    <li class="list-group-item">2.11 Etiquetas para citas de texto</li>
+                    <li class="list-group-item">2.12 Atributos clases , ID</li>
+                    <li class="list-group-item">2.13 Audios y videos</li>
+                    <li class="list-group-item">2.14 Imagenes SVG</li>
+                    <li class="list-group-item">2.15 Etiquetas de maquetado</li>
+                    <li class="list-group-item">2.16 Diferencias entre Div, Articl y section</li>
+                    <li class="list-group-item">2.17 Etiquetars iframe y span</li>
+                    <li class="list-group-item">2.18 Etiquetas Script y noScript</li>
+                    <li class="list-group-item">2.19 Inscrutado de videos de youtube </li>
+                    <li class="list-group-item">2.20 Agregando Favicon </li>
+                    <li class="list-group-item">2.21 PRACTICA: creando layuot en html header y contenido</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <b>3. CSS 3</b>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item">3.1 Introduccio</li>
+                    <li class="list-group-item">3.1 Primeros estilos con css</li>
+                    <li class="list-group-item">3.1 Selectores</li>
+                    <li class="list-group-item">3.1 Selectores avanzados</li>
+                    <li class="list-group-item">3.1 Fondos</li>
+                    <li class="list-group-item">3.1 Gradientes</li>
+                    <li class="list-group-item">3.1 Enlaces</li>
+                    <li class="list-group-item">3.1 Textos y tipografias locales y externas</li>
+                    <li class="list-group-item">3.1 unidades de medida</li>
+                    <li class="list-group-item">3.1 unidades de color</li>
+                    <li class="list-group-item">3.1. Practicas: diseñando botones</li>
+                    <li class="list-group-item">3.1. Posicionamientos de cajas</li>
+                    <li class="list-group-item">3.1. Visualizacion</li>
+                    <li class="list-group-item">3.1. PRACTICA: Galeria de imagenes</li>
+                    <li class="list-group-item">3.1. Sombras</li>
+                    <li class="list-group-item">3.1. Bordes y bordes redondeados</li>
+                    <li class="list-group-item">3.1. Pseudo clases</li>
+                    <li class="list-group-item">3.1. Pseudo elementos</li>
+                    <li class="list-group-item">3.1. Listas</li>
+                    <li class="list-group-item">3.1. Diseñando menu de navegacion horizontal</li>
+                    <li class="list-group-item">3.1. Tablas</li>
+                    <li class="list-group-item">3.1. Tablas</li>
+                    <li class="list-group-item">3.1. Tablas</li>
+                    <li class="list-group-item">3.1. Propiedad transform</li>
+                    <li class="list-group-item">3.1. transiciones</li>
+                    <li class="list-group-item">3.1. animaciones</li>
+                    <li class="list-group-item">3.1. Practica: Diseñando plantillas con Float</li>
+                  </ul>
+                  <ul class="list-group">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <b>4. Responsive Design</b> 
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+               
+                    <li class="list-group-item"> 4.1 ¿Que esl diseñi adaptable?</li>
+                    <li class="list-group-item"> 4.1 meta viewport</li>
+                    <li class="list-group-item"> 4.1 Adaptando nuestro contenido automaticamente</li>
+                    <li class="list-group-item"> 4.1 MediaQueries</li>
+                   
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  <b>5. Diseñando con flexbox</b> 
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item"> 5.1 Flexbox y propiedades padre</li>
+                    <li class="list-group-item"> 5.2 propiedad elementos hijo</li>
+                    <li class="list-group-item"> 5.3 PRACTICA diseño de interfaz con flexbox</li>
+                    <li class="list-group-item"> 5.4 CSS GRID</li>
+                   
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                  <b>5 .SASS:</b> 
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    <li class="list-group-item"> 5.1 Introduccion sass y para que sirve </li>
+                    <li class="list-group-item"> 5.2 Instalando soporte para SASS en sublime text </li>
+                    <li class="list-group-item"> 5.3 Como escribir CSS utilizando SASS </li>
+                    <li class="list-group-item"> 5.4 Compilar codigo con SASS </li>
+                    <li class="list-group-item"> 5.5 Variales </li>
+                    <li class="list-group-item"> 5.6 Anidacion de selectores </li>
+                    <li class="list-group-item"> 5.6 Organizando nuestro proyecto en varios archivos @import </li>
+                    <li class="list-group-item"> 5.7 Mixins y funciones </li>
+                    <li class="list-group-item"> 5.8 Clases extendidas </li>
+                   
+                  </ul>
+                  
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseven" aria-expanded="false" aria-controls="collapseven">
+                 <b> 6 javascript / Jquery  </b>  
+                </button>
+              </h2>
+              <div id="collapseven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item"> 6.1 Selectores</li>
+                    <li class="list-group-item"> 6.2 Efectos</li>
+                    <li class="list-group-item"> 6.3 Accediendo a elementos del DOM</li>
+                    <li class="list-group-item"> 6.3 Metodos par filtrar elementos</li>
+                    <li class="list-group-item"> 6.3 Eventos</li>
+                    <li class="list-group-item"> 6.3 Palabra reservada this</li>
+                    <li class="list-group-item"> 6.3 Animaciones con jquery</li>
+                    <li class="list-group-item"> 6.3 Metodo stop</li>
+                    <li class="list-group-item"> 6.3 Callbacks</li>
+                    <li class="list-group-item"> 6.3 Agregando nuevos elementos al DOM</li>
+                    <li class="list-group-item"> 6.3 Eliminando elementos del DOM</li>
+                    <li class="list-group-item"> 6.3 jquery con css</li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                  <b>7 .PRACTICA FINAL:</b> 
+                </button>
+              </h2>
+              <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#frontend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    <li class="list-group-item"> Diseño de tienda en linea / restaurant  </li>
+                   
+                  </ul>
+                  
+                </div>
+              </div>
+              
+            </div>
+
+           
+
+           
+
+          </div>
+
+          <div class="accordion" id="backend">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#back1" aria-expanded="true" aria-controls="back1">
+                 <b>1 Introduccion PHP</b>
+                </button>
+              </h2>
+              <div id="back1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    
+                    <li class="list-group-item">1.1 Como funciona PHP</li>
+                    <li class="list-group-item">1.2 Plugins de SublimeText para PHP</li>
+                    <li class="list-group-item">1.3 Instalacion de entorno de desarrollo XAMP</li>
+                    <li class="list-group-item">1.4 Organizacion de proyectos</li>
+                    <li class="list-group-item">1.5 Mi primer aplicacion en PHP</li>
+                    <li class="list-group-item">1.6 Mezclar HTML y PHP</li>
+                    <li class="list-group-item">1.7 Comentario y extras en PHP</li>
+                    <li class="list-group-item">1.8 caracteristicas de PHP 8</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back2" aria-expanded="false" aria-controls="back2">
+                  <b>2. Tipo de datos y variables</b>
+                </button>
+              </h2>
+              <div id="back2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item">2.1 Variables</li>
+                    <li class="list-group-item">2.2 Tipos de datos: cadenas</li>
+                    <li class="list-group-item">2.3 Concatenacion de cadenas</li>
+                    <li class="list-group-item">2.4 Tipos de datos: numeros enteros</li>
+                    <li class="list-group-item">2.5 Tipos de datos: numeros flotantes</li>
+                    <li class="list-group-item">2.6 Tipo de datos: boleano</li>
+                    <li class="list-group-item">2.7 Diferencia entre variables y constantes</li>
+                    <li class="list-group-item">2.8 Secuencia de escapes para caracteres unicode</li>
+                    <li class="list-group-item">2.9 Tipos de datos compuestos y especiales</li>
+                    <li class="list-group-item">2.10 Eliminar variables con unsent()</li>
+          
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back3" aria-expanded="false" aria-controls="back3">
+                  <b>3. Operadores</b>
+                </button>
+              </h2>
+              <div id="back3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item">3.1 Introduccion a operadores y sus conceptos en PHP</li>
+                    <li class="list-group-item">3.2 Operadores aritmeticos</li>
+                    <li class="list-group-item">3.3 Operadores de asignacion y lo operadores abreviados o atajos</li>
+                    <li class="list-group-item">3.4 Operadores de comparacion</li>
+                    <li class="list-group-item">3.5 Operadores Logicos</li>
+                    <li class="list-group-item">3.6 operador de funcion null</li>
+                    <li class="list-group-item">3.7 Comparaciones inteligentes</li>
+                 
+                  </ul>
+                  <ul class="list-group">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back4" aria-expanded="false" aria-controls="back4">
+                  <b>4. Sentencias condicionales</b> 
+                </button>
+              </h2>
+              <div id="back4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+               
+                    <li class="list-group-item"> 4.1 Sentencias condicionales</li>
+                    <li class="list-group-item"> 4.1 Operadopres condicionales aniadados</li>
+                    <li class="list-group-item"> 4.1 Sintaxis alterna de condicionales</li>
+                    <li class="list-group-item"> 4.1 Estructura condicional switch</li>
+                    <li class="list-group-item"> 4.1 Estructura condicional match</li>
+                    <li class="list-group-item"> 4.1 Estructura condicional match</li>
+                   
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back5" aria-expanded="false" aria-controls="back5">
+                  <b>5. EStructuras ciclicas</b> 
+                </button>
+              </h2>
+              <div id="back5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                        
+                    
+                    <li class="list-group-item"> 5.1 ciclo while</li>
+                    <li class="list-group-item"> 5.2 ciclo do while</li>
+                    <li class="list-group-item"> 5.3 ciclo for</li>
+                    <li class="list-group-item"> 5.4 comando brake y continue</li>
+                   
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back6" aria-expanded="false" aria-controls="back6">
+                  <b>6. Creacion y manejo de arreglos</b> 
+                </button>
+              </h2>
+              <div id="back6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    <li class="list-group-item"> 6.1 creando arreglos</li>
+                    <li class="list-group-item"> 6.2 ciclo foreach </li>
+                    <li class="list-group-item"> 6.3 Arreglo asociativos</li>
+                    <li class="list-group-item"> 6.4 ordenamiento de arreglos </li>
+                    <li class="list-group-item"> 6.5 funciones para navegacion  de elementos de un arrreglo</li>
+                    <li class="list-group-item"> 6.6 arreglo de constantes con define()</li>
+                    <li class="list-group-item"> 6.6 funcion var_dump()</li>
+                    <li class="list-group-item"> 6.7 funcion print_r() para visualidar arreglo, variables u  objnetis</li>      
+                    <li class="list-group-item"> 6.8 comando list() para asignar valores a los arreglos</li>
+
+                  </ul>
+                  
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back7" aria-expanded="false" aria-controls="back7">
+                 <b> 7 Creación de funciones personalizadas </b>  
+                </button>
+              </h2>
+              <div id="back7" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">   
+                    
+                    <li class="list-group-item"> 7.1 Crear y llamar funcion</li>
+                    <li class="list-group-item"> 7.2 El alcance de la variables</li>
+                    <li class="list-group-item"> 7.3 Regresar valor de una variables</li>
+                    <li class="list-group-item"> 7.4 Argumentos o parametros por referecia o por valor</li>
+                    <li class="list-group-item"> 7.5 Valores predeterminados de argumentos</li>
+                    <li class="list-group-item"> 7.6 Declaracion de tipos de funciones</li>
+                    <li class="list-group-item"> 7.7 Declaracion de tipos de devolucion</li>
+                    <li class="list-group-item"> 7.8 Listas de argumentos de longitud variable</li>
+                    <li class="list-group-item"> 7.9 creacion de generadores en PHP</li>
+                    <li class="list-group-item"> 7.10 Uso de sentencias Return en los generadores</li>
+                    
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back8" aria-expanded="false" aria-controls="back8">
+                  <b>8 Validacion de formularios:</b> 
+                </button>
+              </h2>
+              <div id="back8" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">   
+                    <li class="list-group-item">8.1 comunicacion de formularios con PHP </li>
+                    <li class="list-group-item">8.2 Recibir variables simples </li>
+                    <li class="list-group-item">8.3 Recibir variables multiples </li>
+                    <li class="list-group-item">8.4 validacion de cadenas </li>
+                    <li class="list-group-item">8.5 validacion de arreglos con isset() </li>
+                    <li class="list-group-item">8.6 recibir campos ocultos de formulario html </li>
+                    <li class="list-group-item">8.7 validar listas</li>
+                    <li class="list-group-item">8.8 validacion de botones radio</li>
+                    <li class="list-group-item">8.9 validar un formulario utilizando header()</li>
+                    <li class="list-group-item">8.10 validar botones de verificacion o checkboxes de formulario</li>
+                    <li class="list-group-item">8.11 Plantillas de formularios html</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back9" aria-expanded="false" aria-controls="back9">
+                  <b>9 manejo de archivos:</b> 
+                </button>
+              </h2>
+              <div id="back9" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">   
+                    <li class="list-group-item">9.1 verificar si existe un archivos con file_exist() </li>
+                    <li class="list-group-item">9.2 determinar si es un archivo o directorio con is_file() y is_dir() </li>
+                    <li class="list-group-item">9.3 propiedades de un archivo file_size()</li>
+                    <li class="list-group-item">9.4 leer contenido de un directorio con opendir() y readdir()</li>
+                    <li class="list-group-item">9.5 Constantes predefinidas</li>
+                    <li class="list-group-item">9.6 leer contenido de un directorio con scandir() </li>
+                    <li class="list-group-item">9.7 conocer la ruta de una rchivo con dirname(), basename(), realpath()</li>
+                    <li class="list-group-item">9.8 leer nombre de los archivos y carpetas con glob()</li>
+                    <li class="list-group-item">9.9 manejo de content-type con header()</li>
+                    <li class="list-group-item">9.10 manejo de finalizacion con header()</li>
+                 
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back10" aria-expanded="false" aria-controls="back10">
+                  <b>10 Crear, modificar y eliminar cookies del navegador:</b> 
+                </button>
+              </h2>
+              <div id="back10" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">   
+                    <li class="list-group-item">10.1 crear una cookie </li>
+                    <li class="list-group-item">10.2 leer una cookie </li>
+                    <li class="list-group-item">10.3 borrar una cookie</li>
+                    <li class="list-group-item">10.4 crear un contador de visitar con cookies </li>
+                    <li class="list-group-item">10.5 almacenar datos de configuracion del usuario con cookies</li>
+                    <li class="list-group-item">10.6 crear una barra de verificacion  de politicas de cookies: HTML</li>
+            
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back11" aria-expanded="false" aria-controls="back11">
+                  <b>12 crear archivos PDF con PHP</b> 
+                </button>
+              </h2>
+              <div id="back11" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">   
+                    <li class="list-group-item">11.1 crear PDF con libreria FPDF </li>
+                    <li class="list-group-item">11.2 Crear encabezado y pie de pagina con FPDF </li>
+                    <li class="list-group-item">11.3 Leer Textos externos y crear PDF </li>
+                    <li class="list-group-item">11.4 Manejo de columnas con FPDF</li>
+                    <li class="list-group-item">11.5 Crear tabla dinamica con FPDF </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+           
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#back12" aria-expanded="false" aria-controls="back12">
+                  <b>12 Sesiones con PHP</b> 
+                </button>
+              </h2>
+              <div id="back12" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">   
+                    <li class="list-group-item">12.1 Crear paginas privadas con session start() </li>
+                    <li class="list-group-item">12.2 Validar y cerrar una sesion con session_destroy y unset() </li>
+                    <li class="list-group-item">12.3 Limitar tiempo de las sesiones con el comanto time() </li>
+                    <li class="list-group-item">12.4 arreglo de la funcion session_start()</li>                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+           
+
+          </div>
+
+          <div class="accordion" id="bootstrap">
+           
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#boots1" aria-expanded="true" aria-controls="boots1">
+                 <b>Bootstrap 5</b>
+                </button>
+              </h2>
+              <div id="boots1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#backend">
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    
+                    <li class="list-group-item">1 Que es bootstrap y como funciona</li>
+                    <li class="list-group-item">2 configurar entorno de diseño</li>
+                    <li class="list-group-item">3 Que es la grid de bootstrap</li>
+                    <li class="list-group-item">4 creando nuestra primera grid de bootstrap</li>
+                    <li class="list-group-item">5 flexbox dentro de bootstrap</li>
+                    <li class="list-group-item">6 Creando pagina con sistema de columnas</li>
+                    <li class="list-group-item">7 tipografia y textos</li>
+                    <li class="list-group-item">8 tablas</li>
+                    <li class="list-group-item">9 Alertas</li>
+                    <li class="list-group-item">10 Slideshow</li>
+                    <li class="list-group-item">11 botones</li>
+                    <li class="list-group-item">12 cards</li>
+                    <li class="list-group-item">13 formularios</li>
+                    <li class="list-group-item">14 grupo de listas</li>
+                    <li class="list-group-item">15 Ventanas modal</li>
+                    <li class="list-group-item">16 Navs</li>
+                    <li class="list-group-item">17 Navbars</li>
+                    <li class="list-group-item">18 Barras de progreso</li>
+                    <li class="list-group-item">19 colores</li>
+                    <li class="list-group-item">20 Clases especiales para tamaños y espaciados</li>
+                    <li class="list-group-item">21 Practica 1: creando portafolio de trabajo con boostrap</li>
+                    <li class="list-group-item">22 Practica 2: creando panel administrador (dashboard)</li>
+                    <li class="list-group-item">23 Practica 3: creando sitio con vanilla Boostrap</li>
+                    <li class="list-group-item">24 Practica 4: Diseño red social tipo facebook</li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+            
+    
+        </div>
+    </div>
+</div>
+
+<section>
+
+
+</section>
+</body>
+</html>l
