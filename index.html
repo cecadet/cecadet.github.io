@@ -2,627 +2,950 @@
 <html lang="en">
 
 <head>
-  <!--====== Required meta tags ======-->
   <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="description" content="Curso de desarrollo web Fronted y Backend desde cero" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <!--====== Title ======-->
-  <title>Cecadet - Curso de desarollo web</title>
-
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta class="viewport">
+  <title>Cecadet - Cursos de Tecnologias</title>
+  <!-- Favicon-->
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/svg" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/personal.css" rel="stylesheet" />
 
-  <!--====== Bootstrap css ======-->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <script src="https://kit.fontawesome.com/0f25780317.js" crossorigin="anonymous"></script>
+  <!--Conectando bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/stylep.css">
+  <script src="https://kit.fontawesome.com/0f25780317.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
-  <!--====== Line Icons css ======-->
-  <link rel="stylesheet" href="assets/css/lineicons.css" />
-
-  <!--====== Tiny Slider css ======-->
-  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-
-  <!--====== gLightBox css ======-->
-  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-
-  <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body class="d-flex flex-column h-100" style="background-color: #eae8f1;">
+  <main class="flex-shrink-0">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg  border-bottom">
+      <div class="container px-5">
+        <a class="navbar-brand " href="index.html">Cecadet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html"></a></li>
 
-  <!--====== NAVBAR NINE PART START ======-->
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/profile.php?id=61569399003553">Síguenos en <i class="fa-brands fa-facebook"></i></a></li>
+          
 
-  <section class="navbar-area navbar-nine">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
-              <img src="assets/images/white-logo.png" alt="Logo" width="220px" height="50px" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
-              aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="toggler-icon"></span>
-              <span class="toggler-icon"></span>
-              <span class="toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse sub-menu-bar" id="navbarNine">
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a class="page-scroll active" href="#hero-area">Inicio</a>
-                </li>        
-
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#aprenderas">¿que aprenderás?</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="page-scroll" href="#curso">Curso</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="page-scroll" href="#detalles">Detalles</a>
-                 </li>
-                
-              
-
-                <li class="nav-item">
-                  <a class="page-scroll" href="#pricing">Inscripción</a>
-                </li>
-               
-            
-            
-
-                <li class="nav-item">
-                  <a class="page-scroll" href="#contact">Contáctanos</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="navbar-btn d-none d-lg-inline-block">
-              <a class="menu-bar" target="_blank" href="https://www.facebook.com/cecadet.tuxtla/"><i class="lni lni-facebook-oval"></i></a>
-            </div>
-          </nav>
-          <!-- navbar -->
+          </ul>
         </div>
       </div>
-      <!-- row -->
-    </div>
-    <!-- container -->
-  </section>
 
-  <!--====== NAVBAR NINE PART ENDS ======-->
+    </nav>
+    <!-- Header-->
+    <header class=" py-1 text-white " style="background-color:#1126cb;color:black;">
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div class="my-5 text-center text-xl-start">
+              <h3 class="fw-semibold mb-0">Curso con <span class="badge text-bg-warning">validez oficial de SEP</span>
+              </h3>
+              <h1 class="display-5 fw-bold  mb-2">Desarrollo Web Front-End de cero </h1>
+              <p class="lead fw-normal  mb-4">Inicia el camino del Programador Web y Aprende a crear Aplicaciones web/movil que se adapten a cualquier dispositivo, aprenderás desde fundamentos conociendo los lenguajes y tecnicas hasta crear tu propia aplicacion web funcionando en internet.</p>
+              <div class=" d-sm-flex justify-content-sm-center justify-content-xl-start">
+                <a class="btn btn-lg px-5 py-3 me-sm-3 text-white bg-success" href="#inscripcion" >Inscribirme al curso</a>
 
-  <!--====== SIDEBAR PART START ======-->
 
-  <div class="overlay-left"></div>
 
-  <!--====== SIDEBAR PART ENDS ======-->
-
-  <!-- Start header Area PORTADA-->
-  <section id="hero-area" class="portada header-area header-eight">
-    <div class="container">
-      <div class="row  ">
-        <div class=" col-lg-12 col-md-12 col-12    ">
-          <div class="header-content ">
-            <h1>Conviertete en un programador web <u>desde cero</u></h1>
-            <p sytle="color:blue; ">El desarrollo web es una de las areas con mas oportunidades laborales,
-               aprende desde cero y conviertete en un  <strong>Programador web</strong> <u>con nuestra ruta de aprendizaje.</u><br>
-              <br><strong><u>Curso presencial en TUXTLA GUTIERREZ, CHIAPAS</u></strong>
-              <br><br>
-              <strong class="info"> <i class="lni lni-checkmark-circle"></i>Inicia 18 Enero 2024</strong> 
-            </p>
-            <div class="button">
-              <a href="#curso" class="btn primary-btn">Ruta de aprendizaje</a>
-              <a href="#pricing" class="btn secondary-btn-outline">Inscripción</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 col-12">
-          <div class="header-image">
-            <!--img src="assets/images/header/hero-image.jpg" alt="#" / -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End header Area -->
-
-  <!--====== ABOUT FIVE PART START ======-->
-
-  <section id="aprenderas" class="about-area about-five">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 col-12">
-          <div class="about-image-five">
-            
-            <img src="assets/images/about/about-img1.jpg" alt="about" />
-          </div>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="about-five-content">
-            <h6 class="small-title text-lg">¿Que aprenderás?</h6>
-            <h2 class="main-title fw-bold">Un desarrollador web debe dominar 4 principales lenguajes</h2>
-            <div class="about-five-tab">
-              <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="html5-tab" data-bs-toggle="tab" data-bs-target="#html5"
-                    type="button" role="tab" aria-controls="html5" aria-selected="true">HTML5</button>
-
-                  <button class="nav-link" id="css3-tab" data-bs-toggle="tab" data-bs-target="#css3"
-                    type="button" role="tab" aria-controls="css3" aria-selected="false">CSS3</button>
-
-                  <button class="nav-link" id="jquery-tab" data-bs-toggle="tab" data-bs-target="#jquery"
-                    type="button" role="tab" aria-controls="jquery" aria-selected="false">JS</button>
-
-                    <button class="nav-link" id="php-tab" data-bs-toggle="tab" data-bs-target="#php"
-                    type="button" role="tab" aria-controls="php" aria-selected="false">PHP</button>
-                    
-                </div>
-              </nav>
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="html5" role="tabpanel" aria-labelledby="html5-tab">
-                  <p>HTML 5</p>
-                  <p>Crearás la estructura de aplicaciones compatibles con todos los navegadores. Con HTML5 le decimos al navegador lo que vamos a visualizar como barras de Navegación, Secciones, artículos, listas, títulos, audios, videos, imágenes, entre otros.</p>
-                </div>
-                <div class="tab-pane fade" id="css3" role="tabpanel" aria-labelledby="css3-tab">
-                  <p>CSS3</p>
-                  <p>Es el lenguaje estandar con el que daremos el estilo a todo el documento HTML5. Con el diseñaremos un aspecto profesional a nuestra aplicación web, logrando un diseño actual, fácil de utilizar y agradable a la vista para los usuarios.</p>
-                </div>
-                <div class="tab-pane fade" id="jquery" role="tabpanel" aria-labelledby="jquery-tab">
-                  <p>JQUERY</p>
-                  <p>Es un framework de Javascrip que se emplea para brindar a las aplicaciones la capacidad de interactuar con los usuario de una forma dinámica, rápida y fácil agregando efectos visuales y optimizar el envio de informacion a servidores y base de datos.</p>
-                </div>
-                <div class="tab-pane fade" id="php" role="tabpanel" aria-labelledby="php-tab">
-                  <p>PHP</p>
-                  <p>Es el lenguaje por excelencia que todo programador web debe dominar, es el lenguaje con la comunidad mas grande a nivel mundial. PHP nos servirá para poder guardar, editar y eliminar informacion en la base de datos</p>
-                </div>
               </div>
             </div>
           </div>
+          <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
+              src="assets/main3.jpg" alt="..." /></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MODALIDAD Y CERTIFICACION-->
+    <div class="py-1" style="background-color: #eae8f1;">
+      <div class="container  px-5 my-1 rounded-5 py-5">
+        <div class="row  justify-content-center ">
+
+          <div class="col-lg-4 col-md-12 col-sm-12 ">
+            <div class="card p-4 mb-2  border border-0" style="background-color:white">
+              <div class="card-body ">
+                <h5 class="card-title"><i class="fa-solid fa-chalkboard-user fs-2 text-primary"></i> <strong> Modalidad
+                  </strong></h5>
+
+                <p class="card-text">Curso 100% presencial, con clases practicas y clases grabadas.</p>
+                <!--a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 ">
+            <div class="card p-4 mb-2 border border-0" style="background-color:white">
+              <div class="card-body ">
+                <h5 class="card-title"><i class="fa-solid fa-medal fs-2 text-primary"></i><strong> Validez
+                    Oficial</strong></h5>
+
+                <p class="card-text">Recibe Documento con Validéz Oficial de SEP y Certificado de nuestra plataforma</p>
+                <!--a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 ">
+            <div class="card p-4 mb-2 border border-0" style="background-color:white">
+              <div class="card-body ">
+                <h5 class="card-title"><i class="fa-regular fa-calendar fs-2 text-primary"></i><strong> 6 meses</strong>
+                </h5>
+
+                <p class="card-text">Valor curricular de 60 horas, clases sabatinas durante 6 meses</p>
+                <!--a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a-->
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-    <!-- container -->
-  </section>
 
-  <!--====== ABOUT FIVE PART ENDS ======-->
+        <!--Que es un desarrollador web-->
 
-   <!-- Start Latest News Area -->
-   <div id="curso" class="latest-news-area section">
-    <!--======  Start Section Title Five ======-->
-    <div class="section-title-five">
-      <div class="container">
+        <section class="py-1" id="features" style="background-color:none">
+          
+          <div class="container px-5 mb-3 rounded-5 py-1" >
+            <div class="row justify-content-center bg-white rounded-4">
+ 
+              <div class="col-10 text-center ">
+                <h3 class="fw-bold mt-1 mb-5 fs-1 text">¿Que es un Desarrollador Web</h3>
+                <p class="lead fw-normal  mb-5">
+
+                  El desarrolladores o programadores web es el profesional en tecnologías que domina lenguajes y herramientas que permiten crear y diseañar sitios web en los que navegamos en internet, El primer paso en <i><u>el camino del Desarrollo Web</u></i> es aprender aprender <strong>Desarrollo Frontend</strong> que le permite crear una buena expericia al usuario creando diseños fluidos e intuitivos, el segundo paso es el <strong>Desarrollo Backend</strong> que permiten crear aplicaciones capaces de procesar gran cantidad de datos. Los <strong>Desarrolladores full-stack</strong> dominan ambas habilidades, Frontend y Backend siendo capaces de crear Sistemas Web completos, 
+
+                </p>               
+              </div>
+            </div>
+          </div>
+        </section>
+    <!--PORQ APRENDER FRONTEND-->
+
+    <section class="py-1" id="features" style="background-color:none">
+      <div class="container px-5 mb-3 rounded-5 py-1" >
         <div class="row">
-          <div class="col-12">
-            <div class="content">
-              <h6>Ruta del Desarrollador web</h6>
-              <h2 class="fw-bold">Conoce nuestra ruta de aprendizaje</h2>
-              <p>
-                Por cada curso recibes un certificado con validez curricular y  <strong style="color:red">acreditación de SEP con validez nacional</strong>.</p>
-                  
-                           <br><strong class="info"> <i class="lni lni-checkmark-circle"></i> Cursos sabatinos presenciales</strong> 
-                
-                 <strong class="info"> <i class="lni lni-checkmark-circle"></i> Horarios Grupo A: 9am a 11am , Grupo B: 11am a 1pm</strong> 
-                 <br> <br>
-                 <strong class="bg-primary" style="color:white; padding: 10px 50px ; border-radius: 5px; "> <i class="lni lni-download"></i></i> <a style="color:white;" target="_blank" href="https://cecadet.github.io/temario.html">Ver temario de los modulos</a></strong>  
-                
-                
-              
+
+          <div class="col-12 col-md-12 col-lg-6 ">
+            <img class="img-fluid rounded-3 my-5"
+              src="assets/xq.jpg" alt="..." />
             </div>
+          
+
+          <div class="col-12 col-md-12 col-lg-6 py-5 px-3">
+            <h3 class="fw-bold mt-1 mb-5 fs-1 text">¿Este curso es para ti? ¡SÍ!</h3>
+            <p class="lead fw-normal  mb-3">¿No tienes conocimientos previos? no hay problema, te enseñamos desde cero. La edad o la experiencia previa no importan. Si lo que quieres es impulsar tu carrera hacia la tecnologia, este curso esta diseñado para ti, en 6 meses dominarás una de las profesiones mas demandas en tecnologia.</p>
+
+            <p class="lead fw-bold  mb-2">Forma parte de nuestra cuarta generación de Programadores</p>
+            <a  href="#inscripcion" class="btn btn-lg text-white px-5 py-3 "  style="background-color:  #2732c4 ;">Aparta mi lugar</a>
+
           </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </div>
-    <!--======  End Section Title Five ======-->
-    <div class="container">
-      <div class="row ">
-        <div class="col-lg-4 col-md-6 col-12">
-          <!-- Single News -->
-          <div class="single-news ">
-            <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" style="cursor: auto;" src="assets/images/blog/1.jpg" alt="Blog" /></a>
-              <div class="meta-details">
-                
-                <span>Modulo 1: 6 meses</span>
-              </div>
-            </div>
-            <div class="content-body ">
-              <h4 class="title">
-                <a href="javascript:void(0)"> 1. Desarrollo Frontend </a>
-              </h4>
-              <p>
-                Aprende a diseñar interfaces de usuario de las aplicaciones con HTML5 ,  CSS3 y javascript adaptables a diferentes pantallas de dispositivos móviles.
-              </p>
-             
-            </div>
-          </div>
-          <!-- End Single News -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-12">
-          <!-- Single News -->
-          <div class="single-news">
-            <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" style="cursor: auto;" src="assets/images/blog/2.jpg" alt="Blog" /></a>
-              <div class="meta-details">
-                
-                <span>Modulo 2: 6 meses</span>
-              </div>
-            </div>
-            <div class="content-body">
-              <h4 class="title">
-                <a href="javascript:void(0)">
-                  2. Desarrollo Backend
-                </a>
-              </h4>
-              <p>
-                Aprende a programar tu aplicación con <strong></strong>PHP y MariaDB,  crear tu base de datos y conectarla con tu aplicación para guardar, editar y eliminar información.
-              </p>
-             
-            </div>
-          </div>
-          <!-- End Single News -->
-        </div>
-        <div class="col-lg-4 col-md-6 col-12">
-          <!-- Single News -->
-          <div class="single-news">
-            <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" style="cursor: auto;" src="assets/images/blog/3.jpg" alt="Blog" /></a>
-              <div class="meta-details">
-                
-                <span>Especialización: 6 meses</span>
-              </div>
-            </div>
-            <div class="content-body">
-              <h4 class="title">
-                <a href="javascript:void(0)">
-                  3. Bootstrap 5
-                </a>
-              </h4>
-              <p>
-                Aprende <strong>Bootstrap</strong>, Framework Diseñado para facilitar el proceso de desarrollo de los sitios web responsivos y orientados a los dispositivos móviles.
-              </p>
-             
-            </div>
-          </div>
-          <!-- End Single News -->
         </div>
       </div>
-    </div>
-  </div>
-  <!-- End Latest News Area -->
+    </section>
 
 
+    <!-- EXPLICACION GENERAL-->
+    <section class="py-1" id="features" >
+      <div class="container px-5 my-1 rounded-5 py-5 bg-white" >
+        <div class="row gx-5 ">
 
+          <div class="col-12  d-flex justify-content-center ">
+            <h3 class="fw-bolder mt-1 mb-5 fs-1 text">¿Porque aprender Desarrollo Web Frontend?</h3>
+          </div>
 
-  <!-- Start Cta Area -->
-  <section id="call-action" class="call-action">
-    
-    <div class="container">
-     
-      <div class="row justify-content-center">
-        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
-          <div class="inner-content">
-            <h6>Instructor del curso</h6><br>
-            <img src="assets/images/instructor.jpg"  width="200px" height="200px" alt="" style="border-radius: 50%; border: 5px solid whitesmoke;">
-            <h2>MTI. Jordy Chirino Balcázar</h2>
-            <p>
-              Deesarrollador web con 13 años de experiencia en el sector privado, y 9 años de experiencia como docente en la especialidad de programación y ofimática para diferentes instituciones educativas privadas y públicas.
-           Actualmente con certificacion en Inteligencia Artificial</p>
+            <div class="col-12 col-md-12 col-lg-4 col-md-4 col-sm-12 mb-1">
+              <div class="card rounded-4" style="border: 2px solid  #3ad3b5 ;">
+                <div class="card-body">
+                  <h3 class="card-title fw-bold"><i class="bi bi-trophy-fill" style="color:blue;"></i>Creciente demanda laboral</h3>
+                  <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                  <p class="card-text">  Es una de las habilidades más buscadas en el mercado tecnológico. Empresas de todo tipo, desde startups hasta gigantes tecnológicos, necesitan expertos para crear interfaces modernas y funcionales. Esto asegura una estabilidad laboral y numerosas oportunidades.</p>            
+                </div>
+              </div>
+            </div>
             
-          </div>
+            <div class="col-12 col-md-12 col-lg-4 col-md-4 col-sm-12 mb-1">
+              <div class="card  rounded-4  " style="border: 2px solid  #3ad3b5 ;">
+                <div class="card-body">
+                  <h3 class="card-title fw-bold">
+                    <div class="fw-bold fs-3 text"><i class="bi bi-coin" style="color:blue;"></i> Flexibilidad y buenos ingresos</h3>
+                  <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                  <p class="card-text">Ofrece la posibilidad de trabajar desde cualquier lugar del mundo, como freelance, en remoto o en oficinas de grandes empresas. Además, los desarrolladores frontend reciben salarios competitivos y escalan profesionalmente en poco tiempo.</p>            
+                </div>
+              </div>
+            </div>
+             
+            <div class="col-12 col-md-12 col-lg-4 col-md-4 col-sm-12 mb-1">
+              <div class="card  rounded-4  " style="border: 2px solid  #3ad3b5 ;">
+                <div class="card-body">
+                  <h3 class="card-title fw-bold"><i class="bi bi-rocket " style="color:blue;"></i> Creatividad con tecnología:</h3>
+                  <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                  <p class="card-text"> El frontend es perfecto para quienes desean mezclar arte y programación. Puedes diseñar experiencias visuales impactantes mientras aplicas habilidades técnicas para hacerlas funcionales. Es ideal para quienes disfrutan combinar innovación con diseño.</p>            
+                </div>
+              </div>
+            </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Cta Area -->
-
-
-
-  <!-- ========================= mas informaciont ========================= -->
-  <section id="detalles" class="about-area about-five">
     
-    <div class="container">
-     
-        <div class="row">
-          <div class="col-12">
-            <div class="content titulo">
-              <h6>Más información</h6>
-              <h2 class="fw-bold">Clases totalmente practicas y por proyectos</h2>
-           
-              
-            </div>
-          </div>
-        </div>
-        <!-- row -->
-      
-      <div class="row align-items-center">
+    </section>
+    <!-- EXPLICACION GENERAL-->
+
+
+    <!-- QUE APRENDERAS-->
+    <section class="py-5" id="features" style="background-color:none;">
+      <div class="container px-5 my-1 text-center">
+        <h2 class="fw-bolder fs-1">¿Que aprenderás?</h2>
+        <p class="lead fw-normal  mt-1">Conoce y domina los principales lenguajes y herramientas que te convertiran en Desarrollador Web Frontend, ademas aprenderas a utilizar el mejor framework para diseñar aplicacions moviles adaptables</p>
         
        
-        <div class="col-lg-6 col-12">
-           
-          <div class="about-five-content">
-            <ul class="list-group">
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> Horarios: <b> Grupo A 9:00 - 11:00</b> y  <b> Grupo A 11:00 - 13:00</b></li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i><b> Modalidad presencial</b></li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> Edad minima para tomar el curso 15 años</li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> Los pagos son mensuales</li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> Duracion de cada modulo 6 meses</li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> Cada modulo con <b>valor curricular</b> </li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> <strong>cada modulo con Validez Oficial de SEP</strong></li>
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> <strong>Inicia el 18 de Enero 2024</strong></li> 
-              <li class="list-group-item"><i class="lni lni-checkmark-circle" style="color:green;font-weight:bold;"></i> ¿Tienes otra duda? <a href="https://wa.link/ta616u" style="background-color: #138d75 ; color:white; padding: 5px 15px;border-radius: 5px;">Escribir en WhatsApp</a></li>
-              
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="about-image-five">
+
+        <div class="row">
+
+          <div class="col  d-block d-lg-none">
             
-            <img src="assets/images/proyectospng.png" alt="about" />
+
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-brands fa-figma text-info"></i> Figma</span>
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-brands fa-html5 text-danger"></i> HTML 5</span>
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-brands fa-css3-alt text-primary"></i> CSS 3</span>
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-brands fa-js text-warning"></i> Javascript</span>
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-brands fa-bootstrap" style="color:purple;"></i> BootStrap 3.5</span>
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="badge text-bg-light fs-5 m-1"><i class="fa-solid fa-rocket text-success"></i> Despliegue</span>
+            
+
+
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- container -->
-  </section>
-  <!-- ========================= mas informacion end ========================= -->
 
-  
-  <!-- Start Pricing  Area -->
-  <section id="pricing" class="pricing-area pricing-fourteen">
-    <!--======  Start Section Title Five ======-->
-    <div class="section-title-five">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="content">
-              <h6>Invierte en tu mente y en tu futuro</h6>
-              <h2 class="fw-bold">Costos y planes</h2>
-              <p>
-                <strong>Forma parte de nuestra cuarta generación de Programadores web</strong>. A continuación de presentamos los planes de pagos
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </div>
-    <!--======  End Section Title Five ======-->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
-          <div class="pricing-style-fourteen middle">
-            <div class="table-head">
-              <h6 class="title">Plan individual</h4>
-                <p>Aparta tu lugar registrando tus datos y <b><u>puedes pagar tu primer mensualidad en línea o el primer dia del curso</u></b></p>
-                <div class="price">
-                  <h2 class="amount">
-                    <span class="currency">$</span>750<span class="duration">Mensual </span>
-                  </h2>
-                </div>
-            </div>
-
-           <div class="light-rounded-buttons">
-              <a href="https://mpago.la/1YqPCgx" target="_blank" class="btn primary-btn">
-                Paga en línea
-               </a>
-              <a href="https://forms.gle/BwooFr6uYqWCVQZn6" target="_blank" class="btn primary-btn-outline">
-                Inscripción GRATIS
-              </a>
-
-              
-            </div>
-
-            <div class="table-content">
-              <ul class="table-list">
-                <li> <i class="lni lni-checkmark-circle"></i> INSCRIPCIÓN GRATIS.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Curso presencial.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Valor curricular.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Validez de SEP al terminar el módulo 2</li>
-                <li> <i class="lni lni-checkmark-circle "></i> Descuento del 10% en el módulo 2</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Clases grabadas para repaso</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-lg-6 col-md-6 col-12">
-          <div class="pricing-style-fourteen middle">
-            <div class="table-head">
-              <h6 class="title">Plan Estudiante</h4>
-                <p>Para estudiantes con credencial vigente. Aparta tu lugar registrando tus datos y  <b><u>puedes pagar tu primer mensualidad en línea o el primer dia del curso</u></b></p>
-                <div class="price">
-                  <h2 class="amount">
-                    <span class="currency">$</span>590<span class="duration">Mensual </span>
-                  </h2>
-                </div>
-            </div>
-
-            <div class="light-rounded-buttons">
-              <a href="https://mpago.la/16G7RWn" target="_blank" class="btn primary-btn">
-                Paga en línea
-               </a>
-              <a href="https://forms.gle/BwooFr6uYqWCVQZn6" target="_blank" class="btn primary-btn-outline">
-                Inscripción GRATIS
-              </a>
-            </div>
-
-            <div class="table-content">
-              <ul class="table-list">
-                <li> <i class="lni lni-checkmark-circle"></i> INSCRIPCIÓN GRATIS.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Curso presencial.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Valor curricular.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Validez de SEP al terminar el módulo 2</li>
-               
-                <li> <i class="lni lni-checkmark-circle"></i> Clases grabadas para repaso</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ End Pricing  Area -->
-
-
-
-  <!-- ========================= contact-section start ========================= -->
-  <section id="contact" class="contact-section">
-
-    <div class="section-title-five">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="content">
-              <h6>Ubicanos</h6>
-              <h2 class="fw-bold">Sede del curso</h2>
-              <p>
-                La sede del curso es en el tercer piso del <strong>Centro Cultural de Chiapas "Jaime Sabines"</strong> mejor conocida como la biblioteca del 5 de mayo en <strong>Tuxtla Gutierrez, Chiapas</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-4">
-          <div class="contact-item-wrapper">
-            <div class="row">
-              <div class="col-12 col-md-6 col-xl-12">
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <i class="lni lni-phone"></i>
-                  </div>
-                  <div class="contact-content">
-                    <h4>Contact</h4>
-                    <p>961 247 0234</p>
-                    <a href="https://wa.link/ta616u" style="background-color: #138d75 ; color:white; padding: 5px 15px;border-radius: 5px;">Escribir en WhatsApp</a>
-                  </div>
-                </div>
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/figma.png" alt="">
+                <h5 class="card-title fw-bolder">Figma</h5>          
               </div>
-              <div class="col-12 col-md-6 col-xl-12">
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <i class="lni lni-map-marker"></i>
-                  </div>
-                  <div class="contact-content">
-                    <h4>Dirección</h4>
-                    <p>Av. Central Ote. s/n, esquina con 11a calle Ote. Nte.</p>
-                    <p>Tuxtla Gutiérrez, Chiapas.</p>
+            </div>
+          </div>
+
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/html.png" alt="">
+                <h5 class="card-title fw-bolder">HTML 5</h5>          
+              </div>
+            </div>
+          </div>
+          
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/css3.png" alt="">
+                <h5 class="card-title fw-bolder">CSS 3</h5>          
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/js.png" alt="">
+                <h5 class="card-title fw-bolder">Javascript</h5>          
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/bs1.png" alt="">
+                <h5 class="card-title fw-bolder">BootStrap 3.5</h5>          
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/gh.png" alt="">
+                <h5 class="card-title fw-bolder">GitHub</h5>          
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-none d-lg-block col-sm-12 col-lg-3 col-xl-3">
+            <div class="card text-dark mb-3  m-1" style="background-color: white;">            
+              <div class="card-body">
+                <img src="assets/des.png" alt="">
+                <h5 class="card-title fw-bolder">Despliegue </h5>          
+              </div>
+            </div>
+           </div> 
+      </div>      
+    </section>
+
+    <!-- VALIDEZ OFICIAL-->
+
+    <section class="py-5" id="features" style="background-color: #1126cb;">
+      <div class="container px-5 my-5 p-2 bg-white rounded-5">
+        <div class="row gx-5 ">
+          <div class="col-lg-5">
+            <img class="img-fluid rounded-3 my-2" src="assets/certificado.png" alt="..." />
+          </div>
+          <div class="col-lg-7 mb-5 mb-lg-0">
+
+            <h3 class="fw-bold mb-0 fs-1">Curso con <span class="badge text-bg-warning">validez oficial de
+                SEP</span></h3>
+            </br>
+
+            <div class="container-sm"><i class="text-primary fs-4 fa-solid fa-check"></i><span
+                class="ms-1 fw-semibold">Validez nacional</span></div>
+            <div class="container-sm ms-4"><span>Recibe Documentacion <strong>oficial de Secretaria de educación</strong> con valor de 60
+                horas, que te acredita como capacitado para el trabajo de desarrollo web frontend</span></div>
+            <br>
+            <div class="container-sm"><i class="text-primary fs-4 fa-solid fa-check"></i><span
+                class="ms-1 fw-semibold">Certificado de plataforma</span></div>
+            <div class="container-sm ms-4"><span>Recibe un certificado de nuestra plataforma con valor curricular de 60
+                horas</span></div>
+            <br>
+            <div class="container-sm"><i class="text-primary fs-4 fa-solid fa-check"></i><span
+                class="ms-1 fw-semibold">Autenticidad verificable</span></div>
+            <div class="container-sm ms-4"><span>Todos los documentos que recibes contienen un codigo QR para escanear y <b>verificar
+                la autenticidad de cada documento</b></span></div>
+            <br>
+            <div class="card p-4 mb-2 shadow" style="background-color: white; ">
+              <div class="card-body ">
+                <h5 class="card-title fw-semibold">Desarrollo Web Frontend</h5>
+
+                <p class="card-text">60 horas certificadas en ambos documentos</p>
+                <!--a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a-->
+              </div>
+
+            </div>
+            <a class="btn1header btn btn-primary btn-lg px-5 py-3 me-sm-3" href="#inscripcion">Inscribirme al curso</a>
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+ 
+    <!--PREGUNTAS FRECUENTES-->
+    <div class="py-3" style="background-color: #eae8f1";">
+      <div class="container  my-5">
+        <div class="row  justify-content-center ">
+          <div class="col-lg-8 ">
+            <div class="card p-4 mb-2 rounded-4">
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center"><b>Curso diseñado para cubrir las demandas actuales del mercado laboral de desarrollo web</b></h5>
+              </div>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                      <strong>Módulo 1: Introducción al Desarrollo Web y Diseño UI/UX</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse show bg-light" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>¿Qué es el desarrollo web frontend?</li>
+                        <li>Diferencias entre frontend, backend y full-stack.</li>
+                        <li>Introducción a UX/UI:</li>
+                      
+                          <ul>
+                          <li>Principios básicos del diseño centrado en el usuario.
+                          Conceptos de accesibilidad y usabilidad.</li>
+                        </ul>
+                      <li>Herramientas esenciales:
+                          <ul>
+                            <li>Editores de código: VS Code, Sublime Text.</li>
+                            <li>Navegadores y sus herramientas de desarrollo.</li>
+                            <li>Introducción a control de versiones (Git y GitHub).</li>
+                        </ul>
+                      </li>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-6 col-xl-12">
-                <div class="contact-item">
-                  <div class="contact-icon">
-                    <i class="lni lni-alarm-clock"></i>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                      <strong>Módulo 2: Introducción a Figma</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse bg-light" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>¿Qué es Figma y por qué es importante para desarrolladores?</li>
+                        <li>Navegación por la interfaz de Figma:
+                          <ul>
+                            <li>Lienzo, capas y herramientas.</li>
+                          </ul>
+                        </li>
+                        <li>Creación de wireframes básicos.</li>
+                        <li>Prototipado interactivo:
+                          <ul>
+                            <li>Vínculos entre pantallas.</li>
+                            <li>Animaciones básicas.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="contact-content">
-                    <h4>Horario de atención</h4>
-                    <p>9:00 Hrs a 21:00 Hrs</p>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      <strong>Módulo 3: Fundamentos de HTML</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Estructura básica de un documento HTML.</li>
+                        <li>Elementos esenciales:
+                          <ul>
+                            <li>Titulares, párrafos, enlaces.</li>
+                            <li>Imágenes y multimedia.</li>
+                            <li>Listas y tablas.</li>
+                          </ul>
+                        </li>
+                        <li>Formularios:
+                          <ul>
+                            <li>Campos básicos.</li>
+                            <li>Botones y validación nativa.</li>
+                          </ul>
+                        </li>
+                        <li>Introducción a accesibilidad (etiquetas ARIA y atributos).</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      <strong>Módulo 4: Fundamentos de CSS</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Introducción a hojas de estilo (CSS):
+                          <ul>
+                            <li>Selectores, propiedades y valores.</li>
+                          </ul>
+                        </li>
+                        <li>Tipografía:
+                          <ul>
+                            <li>Fuentes web.</li>
+                            <li>Jerarquía visual.</li>
+                          </ul>
+                        </li>
+                        <li>Diseño responsivo:
+                          <ul>
+                            <li>Flexbox.</li>
+                            <li>CSS Grid.</li>
+                            <li>Media queries.</li>
+                          </ul>
+                        </li>
+                        <li>Animaciones y transiciones.</li>
+                        <li>Práctica: Replicar un diseño de Figma usando CSS.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      <strong>Módulo 5: Introducción a JavaScript</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>¿Qué es JavaScript y cómo se integra con HTML/CSS?</li>
+                        <li>Conceptos básicos:
+                          <ul>
+                            <li>Variables y tipos de datos.</li>
+                            <li>Condicionales, bucles y funciones.</li>
+                          </ul>
+                        </li>
+                        <li>Manipulación del DOM:
+                          <ul>
+                            <li>Selectores y eventos.</li>
+                            <li>Modificación dinámica de contenido.</li>
+                          </ul>
+                        </li>
+                        <li>Introducción a la consola del navegador.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      <strong>Módulo 6: Control de Versiones con Git y GitHub</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Conceptos básicos de Git:
+                          <ul>
+                            <li>¿Qué es y por qué usarlo?</li>
+                            <li>Configuración inicial y comandos básicos (<code>init</code>, <code>add</code>, <code>commit</code>).</li>
+                          </ul>
+                        </li>
+                        <li>Introducción a GitHub:
+                          <ul>
+                            <li>Repositorios remotos.</li>
+                            <li>Pull requests y trabajo colaborativo.</li>
+                          </ul>
+                        </li>
+                        <li>Publicación de proyectos en GitHub Pages.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>          
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      <strong>Módulo 7: Diseño Avanzado y Frameworks de CSS</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Introducción a frameworks:
+                          <ul>
+                            <li>Bootstrap.</li>
+                            
+                          </ul>
+                        </li>
+                        <li>Implementación de un diseño de Figma usando un framework.</li>
+                        <li>Personalización de componentes.</li>
+                        <li>Estrategias de diseño adaptable (Mobile-First).</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      <strong>Módulo 8: JavaScript Avanzado</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>ES6 y más allá:
+                          <ul>
+                            <li>Arrow functions, destructuración, módulos.</li>
+                          </ul>
+                        </li>
+                        <li>Consumo de APIs:
+                          <ul>
+                            <li>Fetch API.</li>
+                            <li>JSON y promesas.</li>
+                          </ul>
+                        </li>
+                        <li>Almacenamiento local:
+                          <ul>
+                            <li><code>localStorage</code> y <code>sessionStorage</code>.</li>
+                          </ul>
+                        </li>
+                        <li>Creación de interfaces interactivas.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                      <strong>Módulo 9: Introducción a Librerías y Frameworks</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>¿Qué es una librería? ¿Qué es un framework?</li>
+                        <li>Introducción a React:
+                          <ul>
+                            <li>Componentes y JSX.</li>
+                            <li>Props y estado.</li>
+                            <li>Hooks básicos (<code>useState</code>, <code>useEffect</code>).</li>
+                          </ul>
+                        </li>
+                        <li>Alternativas: Vue.js o Svelte (conceptos breves).</li>
+                        <li>Aplicación práctica: replicar un diseño simple de Figma en React.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                      <strong>Módulo 10: Despliegue a Internet</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Introducción al despliegue web:
+                          <ul>
+                            <li>¿Qué es y por qué es importante?</li>
+                            <li>Opciones de despliegue: hosting gratuito y de pago.</li>
+                          </ul>
+                        </li>
+                        <li>Métodos básicos de despliegue:
+                          <ul>
+                            <li>Publicación con GitHub Pages.</li>
+                            <li>Uso de Netlify.</li>
+                            <li>Uso de Vercel.</li>
+                          </ul>
+                        </li>
+                        <li>Introducción a servidores básicos:
+                          <ul>
+                            <li>Qué es FTP.</li>
+                            <li>Herramientas como FileZilla.</li>
+                          </ul>
+                        </li>
+                        <li>Registro de dominios y configuración básica.</li>
+                        <li>Mejores prácticas para un despliegue efectivo.</li>
+                      </ul>
+                    </li>
                     
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                      <strong>Módulo 11: Proyecto Final</strong>
+                    </button>
+                  </h2>
+                  <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Planificación del proyecto:
+                          <ul>
+                            <li>Uso de Figma para diseñar el prototipo.</li>
+                          </ul>
+                        </li>
+                        <li>Desarrollo del proyecto:
+                          <ul>
+                            <li>Estructura HTML.</li>
+                            <li>Estilizado avanzado con CSS y/o un framework.</li>
+                            <li>Interactividad con JavaScript.</li>
+                          </ul>
+                        </li>
+                        <li>Implementación de funcionalidades avanzadas:</li>
+                        <li>Publicación del proyecto:</li>
+                        <li>Presentación del proyecto y retroalimentación grupal.</li>
+                      </ul>
+                    
+                    </div>
                   </div>
                 </div>
               </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 d-block ">
+            <div class="card p-4 mb-2 rounded-4">
+              <div class="card-body ">
+                <h5 class="card-title fs-2 text-center"><b>Horario y lugar</b></h5>
+
+                <p class="card-text fw-bold">Sabados </p>Grupo A de 9am a 11:30pm <br> Grupo B de 11:30am a 2pm</p>
+                <!--a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a-->
+
+                <p class="card-text fw-bold">Lugar del curso </p>Tuxtla Gutierrez, Chiapas <br> 
+                <i class="fa-solid fa-location-pin text-danger"></i> CBTis 144</p>
+                <i class="fa-solid fa-location-pin text-danger"></i> Biblioteca del parque 5 de mayo</p>
+
+                <b>La sede se asigna segun la cantidad de alumnos</b>
+              </div>
+
+
             </div>
           </div>
         </div>
-        <div class="col-xl-8">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61127.789014030524!2d-93.14720426479064!3d16.75243870218131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd88665921a1d%3A0x3ea0b7329fb7ae15!2sCentro%20Cultural%20de%20Chiapas%20%22Jaime%20Sabines%22!5e0!3m2!1ses!2smx!4v1705988016199!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
       </div>
     </div>
-  </section>
-  <!-- ========================= contact-section end ========================= -->
 
+       <!--INSCRIPCION-->
+       <section class="bg-light py-5" id="inscripcion">
+        <div class="container px-5 my-5 p-2 bg-none">
+          <div class="text-center mb-5 ">
+            <h1 class="fw-bolder">Aparta tu lugar y <u style="text-decoration-color: blue;">elige tu forma de pago</u></h1>
+        <p class="lead fw-normal  mb-5">En cualquier de las opciones, recibirás <b>documentacion Oficial de SEP</b> y <b>certificado del curso</b>,  ambas acreditando la competencia para el trabajo adquirida como Desarrollador Web Front-End</p>
+          </div>
+          <div class="row  justify-content-center ">
+            <!-- Pricing card free-->
+            <div class="row col-10  p-2 rounded-4" style="background-color: #1126cb;">
 
-  <!-- ========================= map-section end ========================= -->
-
-  <!-- Start Footer Area -->
-  <footer class="footer-area footer-eleven">
-    <!-- Start Footer Top -->
-    <div class="footer-top">
-      <div class="container">
-        <div class="inner-content">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-12">
-              <!-- Single Widget -->
-              <div class="footer-widget f-about">
-                <div class="logo">
-                  <a href="index.html">
-                    <img src="assets/images/white-logo2.png" width="220px" height="50px" class="img-fluid" />
-                  </a>
+              <div class="col-12 col-lg-6 bg-white rounded-4">
+                <div class="card rounded-0 border-0">
+                  <div class="card-body p-5">
+                    <div class="small  fs-5 fw-bold">                      
+                      Cuotas mensuales (6 meses)
+                    </div>
+                    <div class="mb-3">
+                      <span class="display-4 fw-bold">$750</span>
+                      <span class="text-muted"><b>MXN</b></span>
+                      <span class="text-muted">/ mensual</span>
+                    </div>
+                    <ul class="list-unstyled mb-4">
+                      <li class="mb-2">
+                        <i class="bi bi-check text-primary"></i>
+                        <strong><u>Documentación con Validez Oficial de SEP</u></strong>
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-primary"></i>
+                        <b>Certificado del curso</b> 
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-primary"></i>
+                        60 horas con Valor Curricular 
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-primary"></i>
+                        Clases presenciale sabatinas
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-primary"></i>
+                        Clases grabadas
+                      </li>
+                      </li>
+                      <li class="text-muted">
+                        <i class="bi bi-x"></i>
+                        <del>10% de descuento</del>
+                      </li>
+                    </ul>
+                    <div class="d-grid"><a class="btn fw-bold fs-4 text-white bg-danger" href="https://forms.gle/QzszdDtsGUjd3xDR6">Inscribete GRATIS</a></div>
+                  </div>
                 </div>
-                <p>
-                  Nos dedicamos a la alfabetización tecnológica y desarrollo de aplicaciones.
-                </p>
-                <p class="copyright-text">
-                  <span>© 2024 Cecadet.</span>Diseñado y desarrollado por
-                  <a href="https://www.facebook.com/profile.php?id=61569399003553" rel="nofollow"> Cecadet Tuxtla</a>
-                </p>
               </div>
-              <!-- End Single Widget -->
+              <!-- Pricing card pro-->
+              <div class="col-12 col-lg-6" >
+                <div class="card border-0 mb-xl-0 rounded-0 ">
+                  <div class="card-body p-5 text-white " style="background-color: #1126cb;" >
+                    <div class="small  fs-5 ">                      
+                      Paga el primer mes y obten <u class="fw-bold">10% de descuento en todas las mensualidades</u>
+                    </div>
+                    <div class="mb-3 text-white">
+                      <span class="display-4 fw-bold">$675</span>
+                      <span class="text-white"><b>MXN</b></span>
+                      <span class="text-white">/ mensual</span>
+                    </div>
+                    <ul class="list-unstyled mb-4">
+                      <li class="mb-2">
+                        <i class="bi bi-check text-white"></i>
+                        <strong><u>Documentacion con Validez Oficial de SEP </u></strong>
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-white"></i>
+                        <strong><u>10% de descuento</u></strong>
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-white"></i>
+                        <b>Certificado del curso </b>
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-white"></i>
+                        60 horas con Valor Curricular 
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-white"></i>
+                        Clases presenciale sabatinas
+                      </li>
+                      <li class="mb-2">
+                        <i class="bi bi-check text-white"></i>
+                        Clases grabadas
+                      </li>
+                      </li>
+                     
+                    </ul>
+                    <div class="d-grid"><a class="btn btn-success fw-bold fs-4" style="background-color: #17a589;" href="https://mpago.la/2SSuBw5">Obtener descuento</a></div><br>
+                    
+                    <div class="opacity-25 bg-white text-dark rounded-3 d-flex justify-content-center align-items-center"> Pago seguro<img src="assets/mercadopago2.png" width="60%" height="20%" he alt=""></div>
+                  </div>
+                </div>
+              </div> 
+
             </div>
-            <div class="col-lg-4 col-md-4 col-12">
-              <!-- Single Widget -->
-              <div class="footer-widget f-link">
-                <h5>Soluciones</h5>
-                <ul>
-                  <li><a href="javascript:void(0)">Capacitación</a></li>
-                  <li><a href="javascript:void(0)">Desarrollo web</a></li>
-                  <li><a href="javascript:void(0)">Marketing digital</a></li>
-                  
-                </ul>
-              </div>
-              <!-- End Single Widget -->
+          
+        </div>
+      </section>
+  
+
+
+    <!-- Blog preview section-->
+    <section class="py-5">
+      <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-10">
+            <div class="text-center">
+              <h2 class="fw-bolder">Ruta de aprendizaje del Programador full-stack</h2>
+              <p class="lead fw-normal  mb-5">Despues de aprender Desarrollo Front-End, continua tu camino para convertirte en un Programador full-stack, especialista en desarrollo web / movil con nuestros siguientes cursos.</p>
+              
             </div>
-            <div class="col-lg-4 col-md-4 col-12">
-              <!-- Single Widget -->
-              <div class="footer-widget f-link">
-                <h5>Proximos cursos</h5>
-                <ul>
-                  <li><a href="javascript:void(0)">Boortstrap 5</a></li>
-                  <li><a href="javascript:void(0)">Angular.js</a></li>
-                  <li><a href="javascript:void(0)">React.js</a></li>
-                  <li><a href="javascript:void(0)">Diseño UX/UI</a></li>
-                </ul>
+          </div>
+        </div>
+        <div class="row gx-5">
+
+        
+          
+          <div class="col-lg-4 mb-1">
+            <div class="card h-100 shadow border-0">
+              <img class="card-img-top" src="assets/frontend.jpg" alt="..." />
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">Proximamente</div>
+                <a class="text-decoration-none link-dark stretched-link" href="#!">
+                  <h5 class="card-title mb-3">Desarrollo Web Back-End</h5>
+                </a>
+                <p class="card-text mb-0">El segundo paso en el camino del desarrollador web, aprende a programar y procesar datos desde tu app a el servidor en internet</p>
               </div>
-              <!-- End Single Widget -->
+              <!--div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="fw-bold">Evelyn Martinez</div>
+                                                <div class="text-muted">April 2, 2023 &middot; 10 min read</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div-->
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-1">
+            <div class="card h-100 shadow border-0">
+              <img class="card-img-top" src="assets/b5-new-logo.png" alt="..." />
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">Proximamente</div>
+                <a class="text-decoration-none link-dark stretched-link" href="#!">
+                  <h5 class="card-title mb-3">Diseño multiplataforma con Bootstrap 5</h5>
+                </a>
+                <p class="card-text mb-0">Especializate aprendiendo a utilizar BootStrap5, el mejor framework para la creacion de interfaces multiplataforma, de forma profesional y rapida.</p>
+              </div>
+              <!--div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="fw-bold">Kelly Rowan</div>
+                                                <div class="text-muted">March 12, 2023 &middot; 6 min read</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div-->
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-1">
+            <div class="card h-100 shadow border-0">
+              <img class="card-img-top" src="assets/python.png" alt="..." />
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">Proximamente</div>
+                <a class="text-decoration-none link-dark stretched-link" href="#!">
+                  <h5 class="card-title mb-3">Programacion en Python</h5>
+                </a>
+                <p class="card-text mb-0">Python, uno de los lenguajes más populares por su simpleza al momento de Desarrollar aplicaciones, facil de aprender y por su capacidad de procesamiento a altas velocidades con grandes volúmenes de información.                  
+                  </p>
+              </div>
+              <!--div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="fw-bold">Josiah Barclay</div>
+                                                <div class="text-muted">March 23, 2023 &middot; 4 min read</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div-->
+            </div>
+          </div>
+
+          
+
+        </div>
+        <!-- Call to action-->
+        <aside class="bg-success rounded-3 p-5 p-sm-5 mt-5">
+          <div class="row d-flex align-items-center justify-content-center ">
+
+            <div class="col-12 col-lg-8 ">
+              <p class="fs-3 fw-bold text-white">¿Tienes algunda duda?, puedes escribirnos</p>              
             </div>
             
+            <div class="col-12 col-lg-4  align-items-center justify-content-center  mx-auto">
+                     
+                <a class="btn btn-lg  btn-outline-light " style="width: 100%;" href="https://wa.link/rix63l" type="button"><i class="fa-brands fa-whatsapp"> </i> WhatsApp</a>
+              
+            </div>
+
           </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <!-- Footer-->
+  <footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto">
+          <div class="small m-0 text-white">Todos los derechos reservados &copy; Cecadet 2024</div>
+        </div>
+        <div class="col-auto d-none">
+          <a class="link-light small" href="#!">Privacy</a>
+          <span class="text-white mx-1">&middot;</span>
+          <a class="link-light small" href="#!">Terms</a>
+          <span class="text-white mx-1">&middot;</span>
+          <a class="link-light small" href="#!">Contact</a>
         </div>
       </div>
     </div>
-    <!--/ End Footer Top -->
   </footer>
-  <!--/ End Footer Area -->
-
-	
-
-  <a href="#" class="scroll-top btn-hover">
-    <i class="lni lni-chevron-up"></i>
-  </a>
-
-  <!--====== js ======-->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/glightbox.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/tiny-slider.js"></script>
-
-
-
-
-
-
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
